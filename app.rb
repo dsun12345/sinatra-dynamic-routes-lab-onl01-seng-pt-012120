@@ -22,5 +22,6 @@ class App < Sinatra::Base
    string 
  end 
  
+ get '/say/:word1'
  
 end
