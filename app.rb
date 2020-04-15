@@ -38,7 +38,7 @@ class App < Sinatra::Base
    case operation
    when "add"
      "#{@Number1} + #{@number2}"
-   elsif @operation == "subtract"
+   when "subtract"
      "#{@number1} - #{@number2}"
    elsif @operation == "multiply"
      "#{@Number1} * #{@number2}"
